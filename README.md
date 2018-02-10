@@ -11,6 +11,8 @@ This is a Server Rendered React app that uses Redux for state management and wil
 * react-redux
 * redux-thunk
 * express
+* emotion
+* react-emotion
 * jest
 * babel-preset-es2015
 * babel-register
@@ -18,7 +20,7 @@ This is a Server Rendered React app that uses Redux for state management and wil
 * react-head
 * serialize-javascript
 
-### Command: `yarn add react react-dom redux-thunk react-router-dom redux react-redux express jest babel-preset-es2015 babel-register isomorphic-fetch`
+### Command: `yarn add react react-dom redux-thunk react-router-dom redux react-redux express jest babel-preset-es2015 babel-register isomorphic-fetch emotion react-emotion`
 
 # Utitlies (Dependancies)
 
