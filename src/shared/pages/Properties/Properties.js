@@ -29,22 +29,19 @@ class Properties extends React.Component {
     const { movies } = this.props;
     // console.log(movies);
     return(
-      <div>
-        <div>Movies Page</div>
-        <CardContainerComponent>
-            {movies.map(movie =>
-              <CardComponent>
-                <div>{ movie.title }</div>
-                <div><img style={{ 'width':'300px', 'height':'250px' }} src={ movie.medium_cover_image } /></div>
-                <div>{ movie.summary }</div>
-                <div><span>Language: { movie.language }</span></div>
-                <div><span>Year: { movie.year }</span></div>
-                <div><span>Rating: { movie.Rating }</span></div>
-                <div><span>Duration: { movie.runtime }</span></div>
-              </CardComponent>
-            )}
-        </CardContainerComponent>
-      </div>
+      <CardContainerComponent>
+        {movies.map(movie =>
+          <CardComponent>
+            <div>{ movie.title }</div>
+            <div><img style={{ 'width':'300px', 'height':'250px' }} src={ movie.medium_cover_image } /></div>
+            <div>{ movie.summary }</div>
+            <div><span>Language: { movie.language }</span></div>
+            <div><span>Year: { movie.year }</span></div>
+            <div><span>Rating: { movie.Rating }</span></div>
+            <div><span>Duration: { movie.runtime }</span></div>
+          </CardComponent>
+        )}
+      </CardContainerComponent>
     );
   }
 }

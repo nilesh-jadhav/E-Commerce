@@ -16,7 +16,6 @@ export default () => {
     <div>
       <Header/>
       <Link to="/">Home</Link>
-      <Link to="/movie/23">movie</Link>
       <ContainerComponent>
         <LeftContainer/>
         <RightContainer/>
